@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "c:\\Users\\Youri\\dark-place-engine\\dark-place-game\\dark-place-game.csproj": {}
+    "C:\\Users\\Youri\\dark-place-engine\\dark-place-game\\dark-place-game.csproj": {}
   },
   "projects": {
-    "c:\\Users\\Youri\\dark-place-engine\\dark-place-game\\dark-place-game.csproj": {
+    "C:\\Users\\Youri\\dark-place-engine\\dark-place-game\\dark-place-game.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "c:\\Users\\Youri\\dark-place-engine\\dark-place-game\\dark-place-game.csproj",
+        "projectUniqueName": "C:\\Users\\Youri\\dark-place-engine\\dark-place-game\\dark-place-game.csproj",
         "projectName": "dark-place-game",
-        "projectPath": "c:\\Users\\Youri\\dark-place-engine\\dark-place-game\\dark-place-game.csproj",
+        "projectPath": "C:\\Users\\Youri\\dark-place-engine\\dark-place-game\\dark-place-game.csproj",
         "packagesPath": "C:\\Users\\Youri\\.nuget\\packages\\",
-        "outputPath": "c:\\Users\\Youri\\dark-place-engine\\dark-place-game\\obj\\",
+        "outputPath": "C:\\Users\\Youri\\dark-place-engine\\dark-place-game\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

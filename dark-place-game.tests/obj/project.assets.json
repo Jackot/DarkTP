@@ -5879,11 +5879,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "c:\\Users\\Youri\\dark-place-engine\\dark-place-game.tests\\dark-place-game.tests.csproj",
+      "projectUniqueName": "C:\\Users\\Youri\\dark-place-engine\\dark-place-game.tests\\dark-place-game.tests.csproj",
       "projectName": "dark-place-game.tests",
-      "projectPath": "c:\\Users\\Youri\\dark-place-engine\\dark-place-game.tests\\dark-place-game.tests.csproj",
+      "projectPath": "C:\\Users\\Youri\\dark-place-engine\\dark-place-game.tests\\dark-place-game.tests.csproj",
       "packagesPath": "C:\\Users\\Youri\\.nuget\\packages\\",
-      "outputPath": "c:\\Users\\Youri\\dark-place-engine\\dark-place-game.tests\\obj\\",
+      "outputPath": "C:\\Users\\Youri\\dark-place-engine\\dark-place-game.tests\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -5902,8 +5902,8 @@
       "frameworks": {
         "netcoreapp2.1": {
           "projectReferences": {
-            "c:\\Users\\Youri\\dark-place-engine\\dark-place-game\\dark-place-game.csproj": {
-              "projectPath": "c:\\Users\\Youri\\dark-place-engine\\dark-place-game\\dark-place-game.csproj"
+            "C:\\Users\\Youri\\dark-place-engine\\dark-place-game\\dark-place-game.csproj": {
+              "projectPath": "C:\\Users\\Youri\\dark-place-engine\\dark-place-game\\dark-place-game.csproj"
             }
           }
         }
