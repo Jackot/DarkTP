@@ -1,0 +1,127 @@
+{
+  "format": 1,
+  "restore": {
+    "c:\\Users\\Youri\\dark-place-engine\\dark-place-game.tests\\dark-place-game.tests.csproj": {}
+  },
+  "projects": {
+    "c:\\Users\\Youri\\dark-place-engine\\dark-place-game.tests\\dark-place-game.tests.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "c:\\Users\\Youri\\dark-place-engine\\dark-place-game.tests\\dark-place-game.tests.csproj",
+        "projectName": "dark-place-game.tests",
+        "projectPath": "c:\\Users\\Youri\\dark-place-engine\\dark-place-game.tests\\dark-place-game.tests.csproj",
+        "packagesPath": "C:\\Users\\Youri\\.nuget\\packages\\",
+        "outputPath": "c:\\Users\\Youri\\dark-place-engine\\dark-place-game.tests\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Youri\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp2.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp2.1": {
+            "projectReferences": {
+              "c:\\Users\\Youri\\dark-place-engine\\dark-place-game\\dark-place-game.csproj": {
+                "projectPath": "c:\\Users\\Youri\\dark-place-engine\\dark-place-game\\dark-place-game.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp2.1": {
+          "dependencies": {
+            "Microsoft.NET.Test.Sdk": {
+              "target": "Package",
+              "version": "[15.9.0, )"
+            },
+            "Microsoft.NETCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.1.0, )",
+              "autoReferenced": true
+            },
+            "xunit": {
+              "target": "Package",
+              "version": "[2.4.0, )"
+            },
+            "xunit.runner.visualstudio": {
+              "target": "Package",
+              "version": "[2.4.0, )"
+            }
+          },
+          "imports": [
+            "net461"
+          ],
+          "assetTargetFallback": true,
+          "warn": true
+        }
+      }
+    },
+    "c:\\Users\\Youri\\dark-place-engine\\dark-place-game\\dark-place-game.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "c:\\Users\\Youri\\dark-place-engine\\dark-place-game\\dark-place-game.csproj",
+        "projectName": "dark-place-game",
+        "projectPath": "c:\\Users\\Youri\\dark-place-engine\\dark-place-game\\dark-place-game.csproj",
+        "packagesPath": "C:\\Users\\Youri\\.nuget\\packages\\",
+        "outputPath": "c:\\Users\\Youri\\dark-place-engine\\dark-place-game\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Youri\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp2.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp2.1": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp2.1": {
+          "dependencies": {
+            "Microsoft.NETCore.App": {
+              "target": "Package",
+              "version": "[2.1.0, )",
+              "autoReferenced": true
+            }
+          },
+          "imports": [
+            "net461"
+          ],
+          "assetTargetFallback": true,
+          "warn": true
+        }
+      }
+    }
+  }
+}
