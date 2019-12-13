@@ -6,7 +6,7 @@ namespace dark_place_game
     [System.Serializable]
     /// Une Exeption Custom
     public class NotEnoughtSpaceInCurrencyHolderExeption : System.Exception {}
-
+    public class CantWithDrawNegativeCurrencyAmountExeption : System.Exception {}
     public class CurrencyHolder
     {
         public static readonly string CURRENCY_DEFAULT_NAME = "Unnamed";
@@ -42,15 +42,20 @@ namespace dark_place_game
         private int capacity = 0;
 
         public CurrencyHolder(string name,int capacity, int amount) {
-            if (name == "") {
+            if (name == "")
                 throw new System.ArgumentException("Parameter name cannot be empty", "name") ;
-            }
-            if (name == null) {
+            if (name == null)
                 throw new System.ArgumentException("Parameter name cannot be null", "name") ;
-            }
-            if (amount < 0) {
+            if (amount < 0)
                 throw new System.ArgumentException("Parameter amount cannot be less than 0", "amount") ;
-            }
+            if (name.Length < 4 || name.Length > 10)
+                throw new System.ArgumentException("Parameter name cannot be less than 4 characters and less than 11 character", "name") ;
+            if (name[0] == 'M')
+                throw new System.ArgumentException("Parameter name begin with 'M'", "name") ;
+            if (name[0] == 'c')
+                throw new System.ArgumentException("Parameter name begin with 'c'", "name") ;
+            if (capacity < 1)
+                throw new System.ArgumentException("Parameter capacity cannot be less than 1", "capacity") ;
             CurrencyName = name;
             Capacity = capacity;
             CurrentAmount = amount;
@@ -69,6 +74,8 @@ namespace dark_place_game
         }
 
         public void Store(int amount) {
+            if (amount <= 0)
+                throw new System.ArgumentException("Impossible de mettre une quantite negative ou 0.", "amount") ;
             if (CurrentAmount+amount <= Capacity )
                 CurrentAmount += amount ;
             else
@@ -76,6 +83,10 @@ namespace dark_place_game
         }
 
         public void Withdraw(int amount) {
+            if (amount < 0)
+                throw new CantWithDrawNegativeCurrencyAmountExeption() ;
+            if (amount == 0)
+                throw new System.ArgumentException("Impossible de retirer 0.", "amount") ;
             if (CurrentAmount >= amount)
                 Capacity -= amount ;
             else
